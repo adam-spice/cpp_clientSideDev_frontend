@@ -3,7 +3,7 @@ import image from "../../../../assets/img/cars-drifting-cars-formula-drift-nissa
 
 const Hero = () => {
   return (
-    <div className="hidden md:block">
+    <div className="hidden md:block overflow-hidden">
       <div
         className="py-20 bg-center bg-cover "
         style={{
@@ -14,7 +14,7 @@ const Hero = () => {
           <h2 className="text-4xl font-bold mb-2 text-black uppercase">
             Delivery
           </h2>
-          <h3 className="text-2xl mb-8 text-white">
+          <h3 className="text-2xl mb-8 text-white z-10">
             Wherever you are in the world we have a range of delivery options to
             make sure you get your items as quickly as possible!
           </h3>

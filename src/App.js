@@ -13,6 +13,7 @@ import Spinner from "./shared/components/UIElements/Spinner/Spinner";
 import DropDownMenu from "./shared/components/UIElements/DropDown/DropDownMenu";
 import ErrorAlert from "./shared/components/UIElements/Alerts/ErrorAlert";
 import Footer from "./shared/components/UIElements/Footer/Footer";
+import About from "./store/pages/About";
 
 const HomePage = lazy(() => import("./store/pages/HomePage"));
 const ProductDetailPage = lazy(() => import("./store/pages/ProductDetailPage"));
@@ -53,6 +54,9 @@ const App = () => {
       </Route>
       <Route path="/shop" exact>
         <MainShop />
+      </Route>
+      <Route path="/about">
+        <About />
       </Route>
       <Route path="/product/:productId" exact>
         <ProductDetailPage />

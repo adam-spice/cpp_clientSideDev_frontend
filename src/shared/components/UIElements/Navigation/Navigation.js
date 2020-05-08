@@ -76,6 +76,14 @@ const Navigation = ({ setCartOpen, cartOpen }) => {
                     Cart
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    className="inline-block no-underline hover:text-black hover:underline py-2 px-4"
+                    to="/about"
+                  >
+                    About
+                  </Link>
+                </li>
               </ul>
             </nav>
           </Break>
