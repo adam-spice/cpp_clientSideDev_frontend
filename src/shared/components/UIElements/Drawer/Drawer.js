@@ -29,6 +29,15 @@ const Drawer = ({ setDrawerOpen, history }) => {
         <div
           className="mt-4 mx-8 w-3/4 cursor-pointer border-b hover:font-semibold"
           onClick={() => {
+            history.push("/about");
+            setDrawerOpen(false);
+          }}
+        >
+          About
+        </div>
+        <div
+          className="mt-4 mx-8 w-3/4 cursor-pointer border-b hover:font-semibold"
+          onClick={() => {
             history.push("/cart");
             setDrawerOpen(false);
           }}

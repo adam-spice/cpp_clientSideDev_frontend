@@ -19,13 +19,13 @@ const HomePage = ({ products }) => {
           </div>
         }
       >
-        <p className="container mb-8 text-lg">
+        <p className="container p-4 mb-8 text-lg">
           From driftcar to dragcar, racecar to showcar, our experienced team can
           advise you on products to suit your needs when modifying your car
           whether it be after market bolt on parts, right through to specialised
           high performance tuning parts.
         </p>
-        <p className="container mb-8 text-lg">
+        <p className="container p-4 mb-8 text-lg">
           We can supply you with a wide range of top quality genuine brands, at
           very competitive prices, quickly and easily. If we wouldn't use it on
           our own race car, we wouldn't sell it to you - thats the trust we put
